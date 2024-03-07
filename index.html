@@ -12,20 +12,23 @@
 
     <main class="principal">
         <div class="principal__escrevertexto">
-            <textarea></textarea>
+            <textarea id="textoescrito"></textarea>
             <div class="principal__escrevertexto__botoes">
-                <button class="principal__escrevertexto__botoes__botao">Criptografar</button>
-                <button class="principal__escrevertexto__botoes__botao">Descriptografar</button>
+                <button onclick="criptografar()" class="principal__escrevertexto__botoes__botao">Criptografar</button>
+                <button onclick="descriptografar()" class="principal__escrevertexto__botoes__botao">Descriptografar</button>
             </div>
         </div>
 
         <div class="principal__textodecodificado">
-            <p class="principal__textodecodificado__ver">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, aliquid, ab ipsum temporibus doloremque voluptatem eum ipsam commodi fugiat, tempora aspernatur amet blanditiis esse id quia eaque dolores corrupti accusamus?</p>
-            <input type="button" class="principal__textodecodificado__copiar">oi</input>
-            </div>
+            <p class="principal__textodecodificado__ver" id="decodificado"></p>
+            <button onclick="copiar()" class="principal__textodecodificado__copiar">Copiar</button>
+        </div>
 
     </main>
 
     <footer></footer>
+
+    <script src="cod.js" defer></script>
 </body>
+
 </html>

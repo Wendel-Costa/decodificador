@@ -41,12 +41,23 @@ body{
     display: flex;
     flex-direction: column;
     width: 25rem;
-    height: 944px;
-    
+    height: 90vb;
     border-radius: 20px;
-    text-align: left;
+    justify-content:space-between;
+    
 }
 
 .principal__textodecodificado__ver{
     color:black;
+    padding: 10% 5% 5% 10%;
+
+}
+.principal__textodecodificado__copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px 25px 25px;
+    padding: 3%;
+    border-radius: 15px;
+    
 }
